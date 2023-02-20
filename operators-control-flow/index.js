@@ -1,3 +1,4 @@
+//Question No 3
 const group = 'Art Subjects';
 const students_name = 'Bolatito'
 
@@ -13,3 +14,5 @@ if (group == 'Art Subjects') {
 }else{
     console.log('Dear ' + students_name + ' Kindly select a valid group but you must offer English and Mathematics')
 }
+
+//Question No 5
