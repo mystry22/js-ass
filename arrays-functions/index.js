@@ -81,14 +81,18 @@ console.log(getMax(numbers));
 //No 5
 const valNum = [0, 2, 4, 5, 6];
 let emtyArry = [];
+let newArrNum;
 const valTimesIndex = () => {
 
-    for (let i = 0; i <= valNum.length; i++) {
-        for (let val of valNum) {
-            let newArrNum = val * i;
-            emtyArry = emtyArry.push(newArrNum);
-        }
+
+    for (let i = 0; i < valNum.length; i++) {
+        
+            newArrNum = i * valNum[i];
+            emtyArry.push(newArrNum);
+        
     }
+
+    console.log(emtyArry)
 }
 
-console.log(emtyArry)
+valTimesIndex();
